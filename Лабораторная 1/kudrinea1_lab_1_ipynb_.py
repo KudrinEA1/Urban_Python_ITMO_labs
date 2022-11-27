@@ -107,6 +107,7 @@ second_group = ['Новосибирск', "Ижевск", "Санкт-Петер
 
 def task_3(first_g, second_g):
     both_group_cities = [cities for cities in second_g if cities in first_g]
+    both_group_cities.sort()
     return both_group_cities
 
 
